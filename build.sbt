@@ -6,5 +6,6 @@ scalaVersion := "2.11.8"
 scalacOptions ++= Seq("-target:jvm-1.8", "-deprecation", "-feature", "-unchecked")
 
 libraryDependencies ++= Seq(
-  "com.chuusai" %% "shapeless" % "2.3.2"
+  "com.chuusai" %% "shapeless" % "2.3.2",
+  "org.typelevel" %% "cats" % "0.9.0"
 )
